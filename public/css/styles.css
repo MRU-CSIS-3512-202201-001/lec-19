@@ -1,0 +1,7 @@
+
+.single-cheese {
+    display: flex;
+    width: 400px;
+    background-color: yellow;
+    justify-content: space-between;
+}
