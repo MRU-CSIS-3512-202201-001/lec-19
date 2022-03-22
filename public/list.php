@@ -1,7 +1,7 @@
 <?php
 
 try {
-    $pdo = new PDO("mysql:hostname=localhost;dbname=cheese_dbs;charset=utf8mb4", "root", "", [PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING]);
+    $pdo = new PDO("mysql:host=34.130.123.133;dbname=cheese_dbs;charset=utf8mb4", "root", "fpMtpy0tNfC2OwfE", [PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING]);
 } catch (PDOException $e) {
     die($e->getMessage());
 }
