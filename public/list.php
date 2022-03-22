@@ -1,3 +1,16 @@
+<?php
+
+try {
+    $pdo = new PDO("mysql:hostname=localhost;dbname=cheese_dbs;charset=utf8mb4", "root", "", [PDO::ATTR_ERRMODE => PDO::ERRMODE_SILENT]);
+} catch (PDOException $e) {
+    die($e->getMessage());
+}
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
